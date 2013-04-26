@@ -1,0 +1,27 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Function
+/biac4/wagner/biac3/wagner5/alan/perceptMnemonic/scripts/toolboxes/mvpaToolbox/afni_matlab/isrow.m
+has the same name as a MATLAB builtin. We suggest you rename the function to
+avoid a potential name conflict.] 
+[> In path at 110
+  In addpath at 87
+  In qRunMat at 2] 
+[Warning: Function
+/biac4/wagner/biac3/wagner5/alan/perceptMnemonic/scripts/toolboxes/repositoryOfAlanScripts/GaryScripts/sec.m
+has the same name as a MATLAB builtin. We suggest you rename the function to
+avoid a potential name conflict.] 
+[> In path at 110
+  In addpath at 87
+  In qRunMat at 2] 
+>> 

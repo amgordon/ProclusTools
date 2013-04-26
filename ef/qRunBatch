@@ -1,0 +1,4 @@
+for i in 4 6 8 9 10 11 12 13 16 17 19 20; do
+  qsub -v "sVar=$i" -N "matjob$i" -o "/home/gordonam/ef/stout$i" -e "/home/gordonam/ef/sterr$i" qRunCommand
+done
+

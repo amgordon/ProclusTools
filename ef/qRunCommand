@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#$ -m bes
+#$ -V
+#$ -l h_vmem=16G
+
+module load MATLAB-R2012b
+cd /home/gordonam/ef
+
+matlab -nodesktop -r "qRunMat($sVar)"

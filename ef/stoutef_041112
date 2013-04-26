@@ -1,0 +1,294 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Function
+/biac4/wagner/biac3/wagner5/alan/eegfmri/scripts/mvpa/afni_matlab/isrow.m has
+the same name as a MATLAB builtin. We suggest you rename the function to avoid
+a potential name conflict.] 
+[> In path at 110
+  In addpath at 87
+  In exMat at 2] 
+[Warning: Variable 'condensed_regs_of_interest' not found.] 
+[> In EF_EEG_ResponseFunction at 73
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: Variable 'condensed_runs' not found.] 
+[> In EF_EEG_ResponseFunction at 73
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+Setting all non-zero values in the mask to one
+Mask 'secondaryMask' created by load_analyze_pattern
+Pattern 'betaMaps_masked' created by create_pattern_from_mask
+Accuracy = 50% (18/36)
+
+ xval iteration 1 completeAccuracy = 60.5263% (23/38)
+
+ xval iteration 2 completeAccuracy = 57.8947% (22/38)
+
+ xval iteration 3 completeAccuracy = 57.8947% (22/38)
+
+ xval iteration 4 completeAccuracy = 50% (19/38)
+
+ xval iteration 5 completeAccuracy = 52.6316% (20/38)
+
+ xval iteration 6 completeAccuracy = 50% (19/38)
+
+ xval iteration 7 completeAccuracy = 60.5263% (23/38)
+
+ xval iteration 8 completeAccuracy = 60.5263% (23/38)
+
+ xval iteration 9 completeAccuracy = 42.1053% (16/38)
+
+ xval iteration 10 complete[Warning: from glmnet fortran code - Convergence for 99th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 28
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+
+nfolds =
+
+    10
+
+[Warning: from glmnet fortran code - Convergence for 92th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 93th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 88th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 89th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+
+ xval iteration 1 complete
+nfolds =
+
+    10
+
+
+ xval iteration 2 complete
+nfolds =
+
+    10
+
+
+ xval iteration 3 complete
+nfolds =
+
+    10
+
+
+ xval iteration 4 complete
+nfolds =
+
+    10
+
+
+ xval iteration 5 complete
+nfolds =
+
+    10
+
+
+ xval iteration 6 complete
+nfolds =
+
+    10
+
+
+ xval iteration 7 complete
+nfolds =
+
+    10
+
+
+ xval iteration 8 complete
+nfolds =
+
+    10
+
+
+ xval iteration 9 complete
+nfolds =
+
+     9
+
+
+ xval iteration 10 complete[Warning: from glmnet fortran code - Convergence for 91th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 28
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+
+nfolds =
+
+    10
+
+[Warning: from glmnet fortran code - Convergence for 74th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 81th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 89th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+[Warning: from glmnet fortran code - Convergence for 82th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 375
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+
+nfolds =
+
+    10
+
+[Warning: from glmnet fortran code - Convergence for 91th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 98
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 377
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+
+ xval iteration 1 complete
+nfolds =
+
+    10
+
+
+ xval iteration 2 complete
+nfolds =
+
+    10
+
+
+ xval iteration 3 complete
+nfolds =
+
+    10
+
+
+ xval iteration 4 complete
+nfolds =
+
+    10
+
+
+ xval iteration 5 complete
+nfolds =
+
+    10
+
+
+ xval iteration 6 complete
+nfolds =
+
+    10
+
+
+ xval iteration 7 complete
+nfolds =
+
+    10
+
+
+ xval iteration 8 complete
+nfolds =
+
+    10
+
+
+ xval iteration 9 complete
+nfolds =
+
+     9
+
+
+ xval iteration 10 complete
+nfolds =
+
+    10
+
+[Warning: from glmnet fortran code - Convergence for 98th lambda value not
+reached after maxit=100 iterations; solutions for larger lambdas returned] 
+[> In glmnet at 272
+  In cvglmnet at 42
+  In EF_x_validation at 137
+  In EF_EEG_ResponseFunction>EF_EEG_classifyOldNew at 416
+  In EF_EEG_ResponseFunction at 377
+  In EF_EEGResponseFunctionGroup at 25
+  In exMat at 3] 
+finished subject ef_041112
+ans =
+
+     []
+
+>> 

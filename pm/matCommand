@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+#$ -m a
+#$ -V
+#$ -l h_vmem=16G
+
+
+module load MATLAB-R2012b
+cd /home/gordonam/pm
+#rm "/home/gordonam/pm/stout$sVar"
+#rm "/home/gordonam/pm/sterr$sVar"
+
+matlab -nodesktop -r "exMat($sVar, $pVar, [])"
+

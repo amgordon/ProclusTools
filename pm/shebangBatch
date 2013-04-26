@@ -1,0 +1,6 @@
+rm st*
+
+for i in {2..22}; do
+  qsub -v "sVar=$i" -N "matjob$i" -o "/home/gordonam/pm/stout$i" -e "/home/gordonam/pm/sterr$i" qRunCommand
+done
+

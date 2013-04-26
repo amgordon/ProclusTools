@@ -1,0 +1,19 @@
+No window system found.  Java option 'MWT' ignored.
+{Reference to non-existent field 'percHandMap'.
+
+Error in Perceptual_fMRIBehAnalysis (line 142)
+if (par.percHandMap==1)
+
+Error in PM_MakeRegs (line 14)
+    [~, ~, idx] = Perceptual_fMRIBehAnalysis(par);
+
+Error in PM_wholeshebang (line 93)
+    if ismember('r',flags); PM_MakeRegs(par); end
+
+Error in PM_batchshebang (line 16)
+            PM_wholeshebang(par, 'rpet')
+
+Error in qRunMat (line 4)
+PM_batchshebang(subj);
+} 
+

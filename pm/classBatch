@@ -1,0 +1,7 @@
+rm st*
+
+for i in 1 2 3 6 8 10 11 12 14 15 16 18 19 20 21 22; do
+  for j in 1; do
+    qsub -v "sVar=$i","pVar=$j","pTot=1" -N job$i -o "/home/gordonam/pm/stout$i" -e "/home/gordonam/pm/sterr$i" matCommand
+  done
+done

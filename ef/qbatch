@@ -1,0 +1,6 @@
+rm st*
+
+for i in ef_091211 ef_091511 ef_092111 ef_092211 ef_092711 ef_092911 ef_100511 ef_101411 ef_040512 ef_040712 ef_041112 ef_042912; do
+  qsub -v "sVar=$i" -N "matjob$i" -o "/home/gordonam/ef/stout$i" -e "/home/gordonam/ef/sterr$i" matCommand
+done
+
