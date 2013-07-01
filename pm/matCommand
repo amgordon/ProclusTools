@@ -12,4 +12,4 @@ cd /home/gordonam/pm
 #rm "/home/gordonam/pm/sterr$sVar"
 
 matlab -nodesktop -r "exMat($sVar, $pVar, [])"
-
+#matlab -nodesktop -r "exMat(16, 1, [])"

@@ -1,1 +1,14 @@
 No window system found.  Java option 'MWT' ignored.
+{Error using PM_setcontrasts (line 277)
+Error in contrast specification
+
+Error in PM_wholeshebang (line 98)
+    if ismember('t',flags); PM_setcontrasts(par); end
+
+Error in PM_batchshebang (line 21)
+            PM_wholeshebang(par, 't')
+
+Error in qRunMat (line 4)
+PM_batchshebang(subj);
+} 
+

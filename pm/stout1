@@ -26,7 +26,7 @@ avoid a potential name conflict.]
   In qRunMat at 2] 
 
 Loading SPM...Done
-Beginning contrasts on subject pm_051911
+Beginning contrasts on subject pm_052311_2
 0  0  0  0  1  0  0  0  0  0  0  0  <-   (OK)
 	contrast image  1               : (spm_add)      ...initialising        ...computing       ...written con_0001.img
 	spm{T} image  1                 :                   ...computing                    ...writing      ...written spmT_0001.img
@@ -52,5 +52,5 @@ Beginning contrasts on subject pm_051911
 	contrast image  8               : (spm_add)      ...initialising        ...computing       ...written con_0008.img
 	spm{T} image  8                 :                   ...computing                    ...writing      ...written spmT_0008.img
 
-pm_051911 done.
+pm_052311_2 done.
 >> 
