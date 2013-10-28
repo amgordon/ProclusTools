@@ -1,2 +1,0 @@
-module load MATLAB-R2012b
-matlab -nodesktop < /biac4/wagner/biac3/wagner5/alan/eegfmri/scripts/EF_EEGResponseFunctionGroup()
