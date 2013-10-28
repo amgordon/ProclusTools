@@ -1,0 +1,4 @@
+Contains tools for running jobs via sun grid engine on Stanford's Proclus service.  The top-level scripts for study 'pm' are 'shebangBatch' (for univariate batch analyses') and 'classBatch' (for classification batch analyses).
+
+
+
